@@ -16,7 +16,7 @@ except ImportError:
     st.write("请运行 `pip install requests` 安装依赖库")
 
 st.set_page_config(page_title="白银LOF套利分析", layout="wide")
-st.title("⚪ 白银LOF基金套利分析平台")
+st.title("⚪ 山总白银套利-稳稳的幸福")
 st.markdown("---")
 # --- 第一部分：关键概念解释 ---
 with st.expander("📚 什么是白银LOF套利？", expanded=True):
@@ -40,7 +40,6 @@ with st.expander("📚 如何进行交易？", expanded=True):
     - 点击【确认】  
     **请注意**：因套利交易火热，基金会对申购数额做限制，例如只能购买100份或500份。
     """)
-
 
 
 def get_fund_net_value_direct(fund_code="161226"):
