@@ -16,7 +16,7 @@ except ImportError:
     st.write("请运行 `pip install requests` 安装依赖库")
 
 st.set_page_config(page_title="白银LOF套利分析", layout="wide")
-st.title("⚪ 山总白银套利-稳稳的幸福")
+st.title("⚪ 乡下秋草白银套利-稳稳的幸福")
 st.markdown("---")
 # --- 第一部分：关键概念解释 ---
 with st.expander("📚 什么是白银LOF套利？", expanded=True):
